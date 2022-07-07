@@ -1,3 +1,7 @@
+subprojects/*
+!subprojects/*.wrap
+*.pdb
+
 # Prerequisites
 *.d
 

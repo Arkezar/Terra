@@ -1,0 +1,12 @@
+[wrap-file]
+directory = spdlog-1.10.0
+source_url = https://github.com/gabime/spdlog/archive/v1.10.0.tar.gz
+source_filename = v1.10.0.tar.gz
+source_hash = 697f91700237dbae2326b90469be32b876b2b44888302afbc7aceb68bcfe8224
+patch_filename = spdlog_1.10.0-2_patch.zip
+patch_url = https://wrapdb.mesonbuild.com/v2/spdlog_1.10.0-2/get_patch
+patch_hash = f4c75e2b869c4299559656a7d97c91a1d6ff850f9810a6b7c81590e2cfe848a6
+
+[provide]
+spdlog = spdlog_dep
+

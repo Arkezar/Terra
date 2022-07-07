@@ -1,0 +1,1 @@
+executable('testbed', ['testbed.cpp'], link_with : enginelib, include_directories: engine_includes, install: true)

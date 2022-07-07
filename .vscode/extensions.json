@@ -1,0 +1,7 @@
+{
+    "recommendations": [
+        "ms-vscode.cpptools",
+        "asabil.meson",
+        "matepek.vscode-catch2-test-adapter"
+    ]
+}
