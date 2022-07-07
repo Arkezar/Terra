@@ -1,3 +1,5 @@
+#include <stdio.h>
+
 #include "Core/Application.h"
 
 namespace Terra {
@@ -6,6 +8,9 @@ Application::Application() {
 }
 
 Application::~Application() {
+}
+
+void Application::Run() {
 }
 }  // namespace Core
 }  // namespace Terra

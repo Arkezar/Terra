@@ -1,7 +1,14 @@
-#include <Core/Application.h>
+#include <Terra.h>
 
-int main() {
-    auto app = new Terra::Core::Application();
-    delete app;
-    return 0;
+class Testbed : public Terra::Core::Application {
+   public:
+    Testbed() {
+    }
+
+    ~Testbed() override {
+    }
+};
+
+std::unique_ptr<Terra::Core::Application> CreateApplication() {
+    return std::make_unique<Testbed>();
 }

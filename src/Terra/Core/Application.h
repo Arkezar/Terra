@@ -8,9 +8,11 @@ namespace Core {
 class API Application {
    public:
     Application();
-    ~Application();
+    virtual ~Application();
+
+    void Run();
 };
 }  // namespace Core
 }  // namespace Terra
 
-#endif
+#endif  // TERRA_CORE_APPLICATION_H_

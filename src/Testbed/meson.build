@@ -1,1 +1,1 @@
-executable('testbed', ['testbed.cpp'], link_with : enginelib, include_directories: engine_includes, install: true)
+executable('testbed', ['Testbed.cpp'], link_with : enginelib, include_directories: engine_includes, install: true)
