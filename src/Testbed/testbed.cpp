@@ -3,9 +3,11 @@
 class Testbed : public Terra::Core::Application {
    public:
     Testbed() {
+        Logger()->Get()->trace("Created Testbed");
     }
 
     ~Testbed() override {
+        Logger()->Get()->trace("Destroyed Testbed");
     }
 };
 
