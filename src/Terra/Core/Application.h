@@ -1,8 +1,6 @@
 #ifndef TERRA_CORE_APPLICATION_H_
 #define TERRA_CORE_APPLICATION_H_
 
-#include <memory>
-
 #include "Common.h"
 #include "Core/Logging/Logger.h"
 

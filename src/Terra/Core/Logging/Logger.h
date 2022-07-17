@@ -1,7 +1,6 @@
 #ifndef TERRA_CORE_LOGGING_LOGGER_H_
 #define TERRA_CORE_LOGGING_LOGGER_H_
 
-#include <memory>
 #include <spdlog/spdlog.h>
 
 #include "Common.h"
