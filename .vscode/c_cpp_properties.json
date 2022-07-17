@@ -12,35 +12,33 @@
             "includePath": [
                 "${commonIncludePaths}"
             ],
+            "intelliSenseMode": "linux-clang-x64",
             "defines": [
                 "DEBUG",
                 "UNICODE",
                 "_UNICODE",
-                "TERRA_API",
                 "_GNU_SOURCE"
             ],
             "compilerPath": "/usr/bin/clang",
             "cStandard": "c17",
             "cppStandard": "c++20",
-            "intelliSenseMode": "linux-clang-x64",
             "compileCommands": "${workspaceFolder}/builddir/compile_commands.json"
         },
         {
             "name": "Win32",
+            "includePath": [
+                "${commonIncludePaths}"
+            ],
             "intelliSenseMode": "windows-clang-x64",
             "defines": [
                 "DEBUG",
                 "UNICODE",
-                "_UNICODE",
-                "TERRA_API"
+                "_UNICODE"
             ],
             "compilerPath": "C:/Program Files/LLVM/bin/clang.exe",
             "cStandard": "c17",
             "cppStandard": "c++20",
-            "compileCommands": "${workspaceFolder}/builddir/compile_commands.json",
-            "includePath": [
-                "${commonIncludePaths}"
-            ]
+            "compileCommands": "${workspaceFolder}/builddir/compile_commands.json"
         }
     ],
     "version": 4

@@ -9,7 +9,12 @@
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceRoot}/bin/",
-            "environment": [],
+            "environment": [
+                {
+                    "name": "PATH",
+                    "value": "${workspaceFolder}/builddir/subprojects/fmt-8.1.1;${env:PATH}"
+                }
+            ],
             "console": "newExternalWindow"
         },
         {

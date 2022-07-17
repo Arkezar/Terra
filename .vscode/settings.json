@@ -1,5 +1,4 @@
 {
-    "testMate.cpp.test.executables": "{build,Build,BUILD,out,Out,OUT,builddir}/**/*{test,Test,TEST}*",
     "files.associations": {
         "*.rh": "cpp",
         "charconv": "cpp",
@@ -84,6 +83,30 @@
         "xutility": "cpp",
         "cstdarg": "cpp",
         "unordered_set": "cpp",
-        "span": "cpp"
-    }
+        "span": "cpp",
+        "any": "cpp",
+        "complex": "cpp",
+        "typeindex": "cpp"
+    },
+    "testMate.cpp.log.logpanel": true,
+    "testMate.cpp.test.advancedExecutables": [
+        {
+            "pattern": "{build,Build,BUILD,out,Out,OUT,builddir}/tests/*{test,Test,TEST}*",
+            "cwd": "${absDirpath}",
+            "env": {
+                "PATH": "${workspaceFolder}/builddir/subprojects/fmt-8.1.1${osPathEnvSep}${workspaceFolder}/bin${osPathEnvSep}${os_env:PATH}"
+            },
+            "catch2": {
+                "testGrouping": {
+                    "groupByExecutable": {
+                        "label": "${filename}",
+                        "description": "${relDirpath}/",
+                        "groupBySource": {
+                            "label": "Source: ${sourceRelPath[2:]}"
+                        }
+                    }
+                }
+            }
+        }
+    ]
 }
