@@ -10,9 +10,11 @@ if(host_machine.system() == 'linux')
 endif
 
 engine_sources = [
-    'Core/Application.cpp',
     'Core/Logging/Logger.cpp',
-    'Events/EventHub.cpp'
+    'Core/Application.cpp',
+    'Core/Window.cpp',
+    'Events/EventHub.cpp',
+    'Platform/Windows/Window.cpp'
     ]
 engine_includes = include_directories('.')
 enginelib = shared_library('engine', engine_sources, dependencies: terra_dependencies, install: true, cpp_args: '-DEXPORT_API')
